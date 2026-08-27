@@ -30,7 +30,9 @@ The following statistics compare the accuracy of Adobe Acrobat's most up-to-date
 
 <br>
 
-In Spring 2026, I received approval to reprocess all of the PDF files in our digital collections with Opticolumn. To approach the remediation strategically, I worked on another Python tool that scans all of the folders on our archive drive and tallies how many of the PDF files in each folder are missing a layer of OCR. I used this as a guide to prioritize which collections to process first, and collaborating with Digital Labs Manager Kevin Dobbins, we have now updated more than 15,000 documents that have increased the searchability of a hand sampled word count by [updated survey] percent and ensuring that all of our materials we are hosting on our digital collections are accessible to patrons.
+In Spring 2026, I received approval to reprocess all of the PDF files in our digital collections with Opticolumn. To approach the remediation strategically, I developed another Python tool that scans all of the folders on our archive drive and tallies how many PDF files in each folder are missing an OCR layer. I used this as a guide to prioritize which collections to process first. Working with Digital Labs Manager Kevin Dobbins, we have now processed and replaced OCR for more than 14,000 documents across our digital collections and added OCR to more than 2,000 previously unsearchable documents. Based on combined report.py results, this has made an additional 7 million words accessible for keyword searching.
+
+To evaluate the collections that have been processed, a randomized sample of documents from 32 digital collections was used to compare existing and newly generated OCR. The first 100 words of each document (3,200 words total) were evaluated for accuracy. Collections lacking an existing OCR layer were excluded from the sample. In this survey, Opticolumn achieved 85.25% accuracy, compared with 43.59% for the previous OCR.
 
 <div class="symbol-container">
     <p class="symbol">&#x1011F;</p>
