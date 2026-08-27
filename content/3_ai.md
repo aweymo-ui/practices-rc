@@ -9,7 +9,7 @@ gallery: true
 
 The article this presentation is based on was written for a special issue of the Collections journal focusing on ethical AI in galleries, libraries, archives, and museums. Unlike writing for a technical journal, we found conflicting emotions among cultural heritage workers: scholarly journals seem genuinely interested in AI, whether that takes the form of excitement, dread, or skepticism, but only up to a certain level of technical detail. While I'll spare you as much jargon as possible, we found while writing the article that it's important to distinguish a few technical concepts to help explain how we arrived at our findings.
 
-{% include gallery-figure.html img="practice_07.png" alt="A Venn diagram illustrating the relationships between different AI models, including algorithms, transformer models, large language models, and convolutional neural networks. It highlights that large language models are transformer models but not all transformer models are large language models." %}
+{% include gallery-figure.html img="practice_07.png" alt="A Venn diagram illustrating the relationships between different AI models, including algorithms, transformer models, large language models, and convolutional neural networks. It highlights that large language models are transformer models but not all transformer models are large language models." caption="7." %}
 
 <br>
 
@@ -29,26 +29,26 @@ PROMPT = (
 
 In most cases, the basis of the hallucination is rooted in the design of a model trained on a massive corpus of English language material which is attempting to establish patterns in the visual information inside the image of a page.
 
-{% include gallery-figure.html img="practice_08.png" alt="A document with handwritten text, labeled Aron T. Vickers, and a title By the President followed by Abraham Lincoln." %}
+{% include gallery-figure.html img="practice_08.png" alt="A document with handwritten text, labeled Aron T. Vickers, and a title By the President followed by Abraham Lincoln." caption="8." %}
 
 <br>
 
 - In this foundational document, Abraham Lincoln (alternate name: Arnold Vinick) is interrupted by a long string of BW’s. Possibly an interpretation of the slight crease in the paper. 
 
-{% include gallery-figure.html img="practice_09.png" alt="A document titled LLM HALLUCINATION EXAMPLES with a prompt instructing to transcribe the text visible in the image, exactly. Below the prompt, there is a handwritten document labeled Article VI with a note stating, Left in the school fund from which money is sought to be drawn." %}
+{% include gallery-figure.html img="practice_09.png" alt="A document titled LLM HALLUCINATION EXAMPLES with a prompt instructing to transcribe the text visible in the image, exactly. Below the prompt, there is a handwritten document labeled Article VI with a note stating, Left in the school fund from which money is sought to be drawn." caption="9." %}
 
 <br>
 
 - In this cursive passage whose last two lines read “in the school fund from which said moneys are sought to be drawn,” the LLM interprets “In 2. As soon as the trick shall be en- Him to see me any port in the sea.” This is of interest not as a misidentification, but because we can see the model attempt to partially invoke an idiom “any port in a storm” perhaps only through context clues of the style of cursive, level of distortion in the paper, to make human sounding patterns of speech as opposed to 1:1 reflections of writing on a word by word basis. 
 - Lines of dialogue may repeat at seemingly random points within a paragraph.
 
-{% include gallery-figure.html img="practice_10.png" alt="A document with text that is not fully legible due to OCR errors, accompanied by examples of hallucinations from an AI model." %}
+{% include gallery-figure.html img="practice_10.png" alt="A document with text that is not fully legible due to OCR errors, accompanied by examples of hallucinations from an AI model." caption="10." %}
 
 <br>
 
 - Despite explicitly stating it in the prompt, another frequent phenomenon is the interjection of the model commenting on its ability to transcribe the material becoming embedded into the OCR page. It can be seen here not only in the repeated $ERROR$ messages but also comments at the tops and bottoms of pages like “I am not sure what you are asking. Can you please provide more context or information?”
 
-{% include gallery-figure.html img="practice_11.png" alt="A document titled LLM HALLUCINATION EXAMPLES with a prompt that instructs to transcribe the text visible in the image, exactly as written, outputting raw text and nothing else—quotes. Below the title, there are two sections on the left, handwritten text from a document labeled 3rd Session Council Bill No." %}
+{% include gallery-figure.html img="practice_11.png" alt="A document titled LLM HALLUCINATION EXAMPLES with a prompt that instructs to transcribe the text visible in the image, exactly as written, outputting raw text and nothing else—quotes. Below the title, there are two sections on the left, handwritten text from a document labeled 3rd Session Council Bill No." caption="11." %}
 
 <br>
 
@@ -56,7 +56,7 @@ In most cases, the basis of the hallucination is rooted in the design of a model
 
 - Finally, after correctly interpreting the page number from this scrapbook from the Taylor Wilderness Research Station Archive, this Spanish hallucination tells us to “Determine the maximum habitat of the species, distributed across…” a fairly large area.
 
-{% include gallery-figure.html img="practice_12.png" alt="A woman wearing headphones operates an Optiphone in 1918. To the right, a diagram illustrates how musical notes combine to form parts of each letter in a word, with labeled notes and terms like run of high and low notes and diverging and converging notes." %}
+{% include gallery-figure.html img="practice_12.png" alt="A woman wearing headphones operates an Optiphone in 1918. To the right, a diagram illustrates how musical notes combine to form parts of each letter in a word, with labeled notes and terms like run of high and low notes and diverging and converging notes." caption="12." %}
 
 <br>
 

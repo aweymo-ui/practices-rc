@@ -7,7 +7,7 @@ gallery: true
 
 <br>
 
-{% include gallery-figure.html img="practice_05.png" alt="A woman stands beside a complex optical character recognition (OCR) machine, which is part of a historical display from 1953. The machine is labeled Farrington Automatic Address Reading Machine, and the accompanying diagram illustrates various OCR techniques." %}
+{% include gallery-figure.html img="practice_05.png" alt="A woman stands beside a complex optical character recognition (OCR) machine, which is part of a historical display from 1953. The machine is labeled Farrington Automatic Address Reading Machine, and the accompanying diagram illustrates various OCR techniques." caption="5." %}
 
 <br>
 
@@ -21,7 +21,7 @@ While we do hold a lot of old photographs, audio recordings, and video recording
 
 Since at least the early 20th century, inventors have developed technologies that try to "recognize" typewritten or handwritten text characters and transform them into machine-readable text, or speech or other audio tones, or punch cards, or any other format we need. The goals have usually been either accessibility, to make text more accessible to people who can't see it or understand it, or to make the interpretation of text more efficient, for instance automating data entry. If you have a machine that can recognize individual text characters or even whole words from a page, then that information can be used for a lot of different applications. Many of the earliest OCR-type technologies were intended to make written materials accessible to people with visual impairments, recognizing text and transforming it into audio tones, speech, or something tactile. But businesses and government agencies were also early adopters of OCR machines that helped to interpret, record, and tally large amounts of written information. For instance, the United States Postal Service started using OCR around the 1960s to help sort mail automatically, and retail businesses used it to scan price tags.
 
-{% include gallery-figure.html img="practice_06.png" alt="A woman in a blue suit sits at a desk with an old computer, smiling. To her left is a diagram from Marie Allen's Technology with New Relevance for Archival Automation Projects, 1987." %}
+{% include gallery-figure.html img="practice_06.png" alt="A woman in a blue suit sits at a desk with an old computer, smiling. To her left is a diagram from Marie Allen's Technology with New Relevance for Archival Automation Projects, 1987." caption="6." %}
 
 <br>
 
