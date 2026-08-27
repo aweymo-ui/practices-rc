@@ -7,25 +7,19 @@ gallery: true
 
 <br>
 
-<div class="symbol-container">
-    <p class="symbol">&#x10120;</p>
-</div>
+{% include gallery-figure.html img="practice_19.png" alt="A document titled ADOBE ACROBAT OUTPUT with examples of majority text generated from Acrobat version 20.6, highlighting that the same collection has documents processed with version 9 and earlier. The left side of the document contains a lengthy typed text, while the right side displays a newspaper article about Thunder City, Idaho, with a headline Thunder City, Idaho – another gateway to nowhere and accompanying images." %}
 
 <br>
 
 At the Center for Digital Inquiry and Learning, it has been standard practice to run all scanned PDF digital derivatives through Adobe Acrobat to generate a layer of OCR. In a test of 30 sample items, I found that Adobe Acrobat accurately identified typewritten text 25 percent of the time, but had only 1.15 percent accuracy when faced with handwritten (print or cursive) material, which makes up a large portion of the University of Idaho Library's digitized archival documents.
 
-<div class="symbol-container">
-    <p class="symbol">&#x10121;</p>
-</div>
+{% include gallery-figure.html img="practice_20.png" alt="Handwritten notes and calculations in a notebook, with a title ADOBE ACROBAT OUTPUT at the top. The notes include examples of handwritten print and cursive text." %}
 
 <br>
 
 Adobe Acrobat also struggles to identify words in unconventional formats, such as diagrams, bolded titles, and signs. Since staff at CDIL have been digitizing materials for over ten years, it's reasonable to assume that the transcription quality of documents processed with older versions of Adobe Acrobat are even less accurate than the results of our test with the current version. Based on these conclusions, I decided to focus on an OCR tool that can reprocess nearly 18,000 document files across our digital collections, rather than surveying and cherry-picking collections known to have particularly poor-quality OCR.
 
-<div class="symbol-container">
-    <p class="symbol">&#x10102;</p>
-</div>
+{% include gallery-figure.html img="practice_21.png" alt="A person stands in a room filled with shelves, looking at documents. The image is black and white, with a title on the left side reading GOALS FOR DEVELOPING THE OCR TOOL." %}
 
 <br>
 
@@ -44,10 +38,7 @@ My goals in developing this OCR tool locally continue to be:
 
 Beginning summer 2025, I set out to survey open-source models, create Python tools using them, and test them against the same set of sample documents. The sample set of roughly 120 documents for testing the OCR models comes from the U of I digital collections, including a selection of typed, handwritten, and cursive text, as well as items containing a combination of all three. For the initial tests, only single-page PDF files were used. In later iterations, I tested multi-page documents to ensure that the PDF files were collating correctly.
 
-
-<div class="symbol-container">
-    <p class="symbol">&#x10119;</p>
-</div>
+{% include gallery-figure.html img="practice_22.png" alt="A document with visible text, accompanied by a section titled LLM HALLUCINATION EXAMPLES at the top." %}
 
 <br>
 

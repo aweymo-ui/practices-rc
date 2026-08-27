@@ -4,7 +4,7 @@ layout: page
 gallery: true
 ---
 
-{% include gallery-figure.html img="banner.png" alt="title card for the presentation featuring an image of the Opticolumn's review.py visualization of the OCR alongside the original archival document." caption="Presentation for Fall 2026 Renfrew Colloquium" title="Presentation for Fall 2026 Renfrew Colloquium" %}
+{% include gallery-figure.html img="banner.png" alt="title card for the presentation featuring an image of the Opticolumn's review.py visualization of the OCR alongside the original archival document." caption="Presentation for Fall 2026 Renfrew Colloquium" %}
 
 * [Slide Deck](https://indd.adobe.com/view/a5ed9089-f1ec-4962-905a-75fb99c9f259){:target="_blank" rel="noopener"}
 
