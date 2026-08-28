@@ -10,7 +10,9 @@ gallery: true
 
 * [Article published by _Collections: A Journal for Museum and Archives Professionals_, June 2026](https://journals.sagepub.com/doi/full/10.1177/15501906261439241){:target="_blank" rel="noopener"}
 
-* [GitHub Repository for Opticolumn Code](https://github.com/Scholarly-Projects/opticolumn)
+* [GitHub Repository for Opticolumn Code](https://github.com/Scholarly-Projects/opticolumn){:target="_blank" rel="noopener"}
+
+* [OSF Repository for Post-Processing OCR Accuracy Survey](https://osf.io/9f483/overview){:target="_blank" rel="noopener"}
 
 <br>
 
