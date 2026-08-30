@@ -40,7 +40,7 @@ In most cases, the basis of the hallucination is rooted in the design of a model
 <br>
 
 - In this cursive passage whose last two lines read “in the school fund from which said moneys are sought to be drawn,” the LLM interprets “In 2. As soon as the trick shall be en- Him to see me any port in the sea.” This is of interest not as a misidentification, but because we can see the model attempt to partially invoke an idiom “any port in a storm” perhaps only through context clues of the style of cursive, level of distortion in the paper, to make human sounding patterns of speech as opposed to 1:1 reflections of writing on a word by word basis. 
-- Lines of dialogue may repeat at seemingly random points within a paragraph.
+- In the example on the right, we can see another trend of lines of dialogue repeating at seemingly random points within a paragraph.
 
 {% include gallery-figure.html img="practice_10.png" alt="A document with text that is not fully legible due to OCR errors, accompanied by examples of hallucinations from an AI model." caption="10." %}
 

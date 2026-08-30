@@ -49,11 +49,11 @@ These batch methods are less precise than the human-directed sample surveys also
 
 <br>
 
-Now that all of the collections that contained documents missing OCR have been reprocessed, I’m going to start working on our newspaper collections, which are notoriously difficult to transcribe and order accurately. These will be processed using another version of the tool, very creatively named Opticolumn(s), which uses the same neural network text recognition model but pairs it with a more advanced pattern recognition and page segmentation model named Surya.
+Now that all of the collections that contained documents missing OCR have been reprocessed, I’m going to start working on our newspaper collections, which are notoriously difficult to transcribe and order accurately. These will be processed using another version of the tool, very creatively named Opticolumn(s), which uses the same neural network text recognition model but pairs it with a more advanced pattern recognition and page segmentation model.
 
 <br>
 
-Working with Head of Special Collections and Assistant Professor Dulce Kersting-Lark to create accessible versions of some of the items in this presentation has also opened up another opportunity. To help make some of this difficult, antiquated cursive material more accessible, I'll be drafting another function that creates an intermediate CSV of the OCR output after processing PDF files. This CSV can be easily spot-checked and edited for accuracy, and then the files can be processed a second time to incorporate these revisions into the final embedded layer.
+Working with Head of Special Collections and Assistant Professor Dulce Kersting-Lark to create accessible versions of some of the items you've seen in this presentation has also opened up another opportunity. To help make some of this difficult, antiquated cursive material more accessible, I'll be working on another function that creates an intermediate CSV of the OCR output after processing PDF files, which can be spot-checked and edited for accuracy, then the files can be processed a second time to incorporate these revisions into the embedded OCR layer.
 
 <br>
 

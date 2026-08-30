@@ -17,7 +17,7 @@ As the digital initiatives librarian for the Center for Digital Inquiry and Lear
 
 <br>
 
-While this is an essential feature for patrons who use screen readers, like many accessibility improvements, it winds up benefitting everyone. Accurate OCR makes historical material more discoverable through the ability to keyword search and uncover connections between documents. With this in mind, it makes a huge difference if the OCR layer interpreting the page below looks like the output on the left or the right of this slide.
+While this is an essential feature for patrons who use screen readers, like many accessibility improvements, it winds up benefitting everyone. Accurate OCR makes historical material more discoverable through the ability to keyword search and uncover connections between documents. With this in mind, it makes a huge difference if the OCR layer interpreting the page looks like the output on the left or the right of this slide.
 
 {% include gallery-figure.html img="practice_03.png" alt="A building with a stone facade and windows, featuring a carved relief above the entrance. Below the building, there is a news article headline that reads DEPARTMENT OF JUSTICE’S CIVIL RIGHTS DIVISION RULING, 2024." caption="3." %}
 

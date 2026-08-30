@@ -17,13 +17,13 @@ At the Center for Digital Inquiry and Learning, it has been standard practice to
 
 <br>
 
-Adobe Acrobat also struggles to identify words in unconventional formats, such as diagrams, bolded titles, and signs. Since staff at CDIL have been digitizing materials for over ten years, it's reasonable to assume that the transcription quality of documents processed with older versions of Adobe Acrobat are even less accurate than the results of our test with the current version. Based on these conclusions, I decided to focus on an OCR tool that can reprocess nearly 18,000 document files across our digital collections, rather than surveying and cherry-picking collections known to have particularly poor-quality OCR.
+Adobe Acrobat also struggles to identify words in unconventional formats, such as diagrams, bolded titles, and signs. Since staff at CDIL have been digitizing materials for over ten years, it's reasonable to assume that the transcription quality of documents processed with older versions of Adobe Acrobat are even less accurate than the results of our test with the current version. Based on these conclusions, I decided to focus on an OCR tool that can reprocess nearly 18,000 documents across our digital collections, rather than surveying and cherry-picking collections known to have particularly poor-quality OCR.
 
 {% include gallery-figure.html img="practice_21.png" alt="A person stands in a room filled with shelves, looking at documents. The image is black and white, with a title on the left side reading GOALS FOR DEVELOPING THE OCR TOOL." caption="21." %}
 
 <br>
 
-My goals in developing this OCR tool locally continue to be:
+My goals in developing this OCR tool continue to be:
 
 <br>
 
@@ -31,12 +31,12 @@ My goals in developing this OCR tool locally continue to be:
 - Ensuring these models don't require an API login or tokens, and run locally after their initial download, for data privacy.
 - Achieving a significant improvement in the accuracy of both typed and handwritten text materials.
 - Keeping file size growth relatively minimal (5–15 percent) with the addition of the OCR layer.
-- Ensuring that processed files meet the definition of "programmatic text" as described in WCAG 2.1 Level AA standards.	
+- Ensuring that processed files meet the WCAG definition of "programmatic text".	
 - Making the tool freely available to other institutions facing similar challenges.
 
 <br>
 
-Beginning summer 2025, I set out to survey open-source models, create Python tools using them, and test them against the same set of sample documents. The sample set of roughly 120 documents for testing the OCR models comes from the U of I digital collections, including a selection of typed, handwritten, and cursive text, as well as items containing a combination of all three. For the initial tests, only single-page PDF files were used. In later iterations, I tested multi-page documents to ensure that the PDF files were collating correctly.
+Beginning summer 2025, I set out to survey open-source models, create Python tools using them, and test them against the same set of sample documents. The sample set of roughly 120 documents for testing the OCR models comes from the U of I digital collections, including a selection of typed, handwritten, and cursive text, as well as items containing a combination of all three.
 
 {% include gallery-figure.html img="practice_22.png" alt="A document with visible text, accompanied by a section titled LLM HALLUCINATION EXAMPLES at the top." caption="22." %}
 
@@ -48,12 +48,12 @@ I began the survey by testing three open large language models that produced the
 
 <br>
 
-The following is a list of models tested after the initial round with three distinct LLM models, along with brief notes on each one's performance. All of the tools here are text recognition models, except for Box Line and Layout Analysis (BLLA), which is a page segmentation model that helps cluster groups of text specifically for archival materials.
+The following is a list of these models, along with brief notes on each one's performance. All of the tools here are text recognition models, except for Box Line and Layout Analysis (BLLA), which is a page segmentation model that helps cluster groups of text specifically for archival materials.
 
 {% include gallery-figure.html img="practice_24.png" alt="DEBUGGING lists various methods for improving PDF assembly and handling image source materials, including denoising, spell checking, character counting, metadata, OCR, and compression techniques. The document includes handwritten notes and an image of a leaf." caption="24." %}
 
 <br>
 
-Once BLLA and TrOCR emerged as the top candidates for Opticolumn, an endless period of debugging began. Denoising and confidence-level parameters boosted accuracy. A spell checker seemed like a promising addition until the acronym-laden scientific digital collections proved it would create more errors than it fixed. Setting a minimum character count per page segment helped filter out noise and misidentified characters potentially lurking in illustrations. Finally, adding XMP metadata, refining the OCR rendering method, and streamlining PDF assembly and compression resolved accessibility flags while keeping file sizes reasonable.
+Once this model and TrOCR emerged as the top candidates for Opticolumn, an endless period of debugging began. Denoising and confidence-level parameters boosted accuracy. Various spell checkers were implemented but they ultimately introduced more false positives than they fixed. Setting a minimum character count per page segment helped filter out noise and misidentified characters potentially lurking in illustrations. Finally, adding XMP metadata, refining the OCR rendering method, and streamlining PDF assembly and compression resolved accessibility flags while keeping file sizes reasonable.
 
 <br>
