@@ -11,7 +11,7 @@ gallery: true
 
 <br>
 
-At the Center for Digital Inquiry and Learning, it has been standard practice to run all scanned PDF digital derivatives through Adobe Acrobat to generate a layer of OCR. In an early survey, I found that Adobe Acrobat accurately typewritten text fairly well, but had a steep decline processing handwritten (print or cursive) material, which makes up a large portion of the University of Idaho Library's digitized archival documents.
+At the Center for Digital Inquiry and Learning, it has been standard practice to run all scanned PDF digital derivatives through Adobe Acrobat to generate a layer of OCR. In an early survey, I found that Adobe Acrobat accurately transcribes typewritten text fairly well, but had a steep decline processing handwritten (print or cursive) material, which makes up a large portion of the University of Idaho Library's digitized archival documents.
 
 {% include gallery-figure.html img="practice_20.png" alt="Handwritten notes and calculations in a notebook, with a title ADOBE ACROBAT OUTPUT at the top. The notes include examples of handwritten print and cursive text." caption="20." %}
 

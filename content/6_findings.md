@@ -12,7 +12,7 @@ gallery: true
 <br>
 
 
-After the fourth iteration of the BLLA/TrOCR model that eventually became Opticolumn, we happened to be working on the Dr. Richard B. Wells Collection, a digital collection that turned out to be an excellent test subject for the tool. Richard B. Wells taught electrical engineering at the University of Idaho from 1983 to 2013. His family donated his notebooks, lab work, manuscripts, and monographs to the archives after his death in 2024. Most of the collection is handwritten and spans disciplines including coding and information theory, computational neuroscience, cognitive computing, and philosophy, especially Immanuel Kant's work.
+After the fourth iteration of the BLLA/TrOCR model that eventually became Opticolumn, Rebecca and I happened to be working on the Dr. Richard B. Wells Collection, a digital collection that turned out to be an excellent test subject for the tool. Richard B. Wells taught electrical engineering at the University of Idaho from 1983 to 2013. His family donated his notebooks, lab work, manuscripts, and monographs to the archives after his death in 2024. Most of the collection is handwritten and spans disciplines including coding and information theory, computational neuroscience, cognitive computing, and philosophy, especially Immanuel Kant's work.
 
 {% include gallery-figure.html img="practice_26.png" alt="ACROBAT VERSUS OPTICOLUMN ACCURACY SURVEY WELL'S COLLECTION MATERIALS. It compares the first 100 word accuracy of OCR tools, with the Acrobat tool achieving 7.6% and the Opticolumn tool achieving 85.5%." caption="26." %}
 
@@ -49,7 +49,7 @@ These batch methods are less precise than the human-directed sample surveys also
 
 <br>
 
-Now that all of the collections that contained documents missing OCR have been reprocessed, I’m going to start reprocessing our newspaper collections, which are notoriously difficult to transcribe and order accurately. These will be processed using another version of the tool, very creatively named Opticolumn(s), which uses the same neural network text recognition model but pairs it with a more advanced pattern recognition and page segmentation model named Surya. Surya specializes in identifying all of the different elements that make up a dense newspaper page and assigning each section its correct reading order.
+Now that all of the collections that contained documents missing OCR have been reprocessed, I’m going to start working on our newspaper collections, which are notoriously difficult to transcribe and order accurately. These will be processed using another version of the tool, very creatively named Opticolumn(s), which uses the same neural network text recognition model but pairs it with a more advanced pattern recognition and page segmentation model named Surya.
 
 <br>
 

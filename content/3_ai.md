@@ -17,6 +17,8 @@ Though the AI landscape is vast, this study focuses on specific model types rele
 
 The next advancement beyond NNs are transformer model (TM) architectures, which integrate a weighted “attention mechanism” and a streamlined structure that helps find solutions to complex requests more easily. Finally, large language models (LLM) refer to a series of algorithms that “leverage the transformer based. . . architecture and undergo extensive training on a massive textual corpora” as a basis for generating natural-sounding text. Of the models discussed here, LLMs are uniquely vulnerable to hallucination, in which the model generates “seemingly plausible yet factually unsupported content,” and specifically intrinsic hallucination, in which “generated output contradicts the source content.”
 
+{% include gallery-figure.html img="practice_08.png" alt="A document with handwritten text, labeled Aron T. Vickers, and a title By the President followed by Abraham Lincoln." caption="8." %}
+
 When I work on these projects, I use a programming language called Python. In addition to my normal practice of importing libraries, implementing configurations, and setting up a structure to handle the processing and output of materials, testing open large language models also involved writing a prompt in the script, exactly as one might through ChatGPT. For these examples of hallucinations, my prompt was:
 
 ```
@@ -28,8 +30,6 @@ PROMPT = (
 ```
 
 In most cases, the basis of the hallucination is rooted in the design of a model trained on a massive corpus of English language material which is attempting to establish patterns in the visual information inside the image of a page.
-
-{% include gallery-figure.html img="practice_08.png" alt="A document with handwritten text, labeled Aron T. Vickers, and a title By the President followed by Abraham Lincoln." caption="8." %}
 
 <br>
 
