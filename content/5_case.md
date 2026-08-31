@@ -54,6 +54,6 @@ The following is a list of these models, along with brief notes on each one's pe
 
 <br>
 
-Once this model and TrOCR emerged as the top candidates for Opticolumn, an endless period of debugging began. Denoising and confidence-level parameters boosted accuracy. Various spell checkers were implemented but they ultimately introduced more false positives than they fixed. Setting a minimum character count per page segment helped filter out noise and misidentified characters potentially lurking in illustrations. Finally, adding XMP metadata, refining the OCR rendering method, and streamlining PDF assembly and compression resolved accessibility flags while keeping file sizes reasonable.
+Once this model and TrOCR emerged as the top candidates for Opticolumn, an endless period of debugging began. Denoising and confidence-level parameters boosted accuracy. Various spell checkers were implemented but they ultimately introduced more false positives than they fixed. Setting a minimum character count per page segment helped filter out noise and misidentified characters potentially lurking in illustrations. Finally, adding XMP metadata and streamlining PDF assembly resolved accessibility flags while keeping file sizes reasonable.
 
 <br>

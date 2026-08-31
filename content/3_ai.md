@@ -29,11 +29,9 @@ PROMPT = (
 )
 ```
 
-In most cases, the basis of the hallucination is rooted in the design of a model trained on a massive corpus of English language material which is attempting to establish patterns in the visual information inside the image of a page.
-
 <br>
 
-- In this foundational document, Abraham Lincoln (alternate name: Arnold Vinick) is interrupted by a long string of BW’s. Possibly an interpretation of the slight crease in the paper. 
+- Beginning with this foundational document, Abraham Lincoln (alternate name: Arnold Vinick) is interrupted by a long string of BW’s. Possibly an interpretation of the slight crease in the paper. 
 
 {% include gallery-figure.html img="practice_09.png" alt="A document titled LLM HALLUCINATION EXAMPLES with a prompt instructing to transcribe the text visible in the image, exactly. Below the prompt, there is a handwritten document labeled Article VI with a note stating, Left in the school fund from which money is sought to be drawn." caption="9." %}
 
@@ -60,6 +58,6 @@ In most cases, the basis of the hallucination is rooted in the design of a model
 
 <br>
 
-As Rebecca mentioned, archivists have been integrating OCR into preservation practices since the 1980s, but people have been attempting to transcribe the printed word into other mediums for more than a hundred years. In 1912, Edmund Edward Fournier d'Albe debuted an invention called the Optophone, which converted the printed page into musical notes as an alternative to braille. Similarly, the roots of AI go back to around that same time, in the form of N-grams and probability statistics. It isn’t until 2022, when OpenAI’s ChatGTP debuted that most people were introduced to both artificial intelligence and large language models in tandem, which is why most people would generally conflate this particular model with its umbrella term. For processing cultural heritage materials where introducing any amount of LLM generated hallucinations is detrimental to the historical record, I've found that stepping back to more binary, non-prompt-driven neural networks and transformer models maintain a more consistent 1:1 reflection of the original document, which capture a document’s “flaws” instead of attempting to make sense of them.
+As Rebecca mentioned, archivists have been integrating OCR into preservation practices since the 1980s, but people have been attempting to transcribe the printed word into other mediums for more than a hundred years. In 1912, Edmund Edward Fournier d'Albe debuted an invention called the Optophone, which converted the printed page into musical notes as an alternative to braille. Similarly, the roots of AI go back to around that same time, in the form of N-grams and probability statistics. It isn’t until 2022, when OpenAI’s ChatGTP debuted that most people were introduced to both artificial intelligence and large language models at the same time, which is why most people would generally conflate this particular model with its umbrella term. For processing cultural heritage materials where introducing any amount of LLM generated hallucinations is detrimental to the historical record, I've found that stepping back to more binary, non-prompt-driven neural networks and transformer models maintain a more consistent 1:1 reflection of the original document, which capture a document’s “flaws” instead of attempting to make sense of them.
 
 <br>
