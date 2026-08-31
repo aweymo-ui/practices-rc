@@ -12,13 +12,13 @@ gallery: true
 <br>
 
 
-After the fourth iteration of the BLLA/TrOCR model that eventually became Opticolumn, Rebecca and I happened to be working on the Dr. Richard B. Wells Collection, a digital collection that turned out to be an excellent test subject for the tool. Richard B. Wells taught electrical engineering at the University of Idaho from 1983 to 2013. His family donated his notebooks, lab work, manuscripts, and monographs to the archives after his death in 2024. Most of the collection is handwritten and spans disciplines including coding and information theory, computational neuroscience, cognitive computing, and philosophy, especially Immanuel Kant's work.
+After the fourth iteration of the model, Rebecca and I happened to be working on the Dr. Richard B. Wells Collection, a digital collection that turned out to be an excellent test subject for the tool. Richard B. Wells taught electrical engineering at the University of Idaho from 1983 to 2013. His family donated his notebooks, lab work, manuscripts, and monographs to the archives after his death in 2024. Most of the collection is handwritten and spans disciplines including coding and information theory, computational neuroscience, cognitive computing, and philosophy, especially Immanuel Kant's work.
 
 {% include gallery-figure.html img="practice_26.png" alt="ACROBAT VERSUS OPTICOLUMN ACCURACY SURVEY WELL'S COLLECTION MATERIALS. It compares the first 100 word accuracy of OCR tools, with the Acrobat tool achieving 7.6% and the Opticolumn tool achieving 85.5%." caption="26." %}
 
 <br>
 
-The following statistics compare the accuracy of Adobe Acrobat's most up-to-date OCR output against our in-house "Opticolumn" tool on the thirty documents in the Dr. Richard B. Wells digital collection, material that is completely handwritten. Inaccurate words are defined as words that are misspelled or missed completely from the first 100 words in each document.
+These statistics compare OCR accuracy between Adobe Acrobat's most up-to-date version and our in-house "Opticolumn" tool across thirty handwritten documents in the Wells collection. Inaccurate words are identified as those misspelled or missing from the first 100 words of each document.
 
 {% include gallery-figure.html img="practice_27.png" alt="OPTICOLUMN PROGRESS with a section on PDFs w/o OCR showing a bar graph. The report highlights that OCR was added to over 2,000 previously unreadable documents, processed and replaced for more than 14,000 documents across digital collections, and an additional 7 million words made accessible for keyword searching." caption="27." %}
 
@@ -49,11 +49,11 @@ These batch methods are less precise than the human-directed sample surveys also
 
 <br>
 
-Now that all of the collections that contained documents missing OCR have been reprocessed, I’m going to start working on our newspaper collections, which are notoriously difficult to transcribe and order accurately. These will be processed using another version of the tool, very creatively named Opticolumn(s), which uses the same neural network text recognition model but pairs it with a more advanced pattern recognition and page segmentation model.
+Now that all of the collections that contained documents missing OCR have been reprocessed, I’m going to start working on our newspaper collections, which are notoriously difficult to transcribe and order accurately. These will be processed using another version of the tool, which uses a more advanced pattern recognition and page segmentation model that can identify all of the various elements in a newspaper page.
 
 <br>
 
-Working with Head of Special Collections and Assistant Professor Dulce Kersting-Lark to create accessible versions of some of the items you've seen in this presentation has also opened up another opportunity. To help make some of this difficult, antiquated cursive material more accessible, I'll be working on another function that creates an intermediate CSV of the OCR output after processing PDF files, which can be spot-checked and edited for accuracy, then the files can be processed a second time to incorporate these revisions into the embedded OCR layer.
+Working with Head of Special Collections and Assistant Professor Dulce Kersting-Lark to create accessible versions of some of the items you've seen in this presentation has also opened up another opportunity. To help make some of this difficult, antiquated cursive material more accessible, I'll be working on another function that creates an intermediate CSV of the OCR output, which can be spot-checked and edited for accuracy, then the files can be processed a second time to incorporate these revisions into the embedded OCR layer.
 
 <br>
 
