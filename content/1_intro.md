@@ -11,7 +11,7 @@ gallery: true
 
 <br>
 
-As the digital initiatives librarian for the Center for Digital Inquiry and Learning at the library, I create and maintain digital collections that highlight materials from our Special Collections, as well as cultural heritage materials from across Idaho. If you visit any of our 150+ collections and open a scanned archival PDF, the document itself is really just an image of a page. The searchable, selectable text behind it is an invisible transcription of the document's written content. Both the process of identifying and transcribing that text, and the resulting text layer embedded in the PDF, are known as Optical Character Recognition, or OCR.
+As the digital initiatives librarian for the Center for Digital Inquiry and Learning at the library, I create and maintain digital collections that highlight materials from our archives and across Idaho. If you visit any of our 150+ collections and open a scanned archival PDF, the document itself is really just an image of a page. The searchable, selectable text behind it is an invisible transcription of the document's written content. Both the process of identifying and transcribing that text, and the resulting text layer embedded in the PDF, are known as Optical Character Recognition, or OCR.
 
 {% include gallery-figure.html img="practice_02.png" alt="Two pages of text, one labeled Left Opticolumn OCR Output and the other labeled Right Adobe Acrobat OCR Output of the Same Page from the Wells Collection. The left page contains handwritten text with some blue highlights, while the right page displays the same text in a more structured format with blue highlights and corrections." caption="2." %}
 

@@ -36,13 +36,13 @@ My goals in developing this OCR tool continue to be:
 
 <br>
 
-Beginning summer 2025, I set out to survey open-source models, create Python tools using them, and test them against the same set of sample documents. The sample set of roughly 120 documents for testing the OCR models comes from the U of I digital collections, including a selection of typed, handwritten, and cursive text, as well as items containing a combination of all three.
-
 {% include gallery-figure.html img="practice_22.png" alt="A document with visible text, accompanied by a section titled LLM HALLUCINATION EXAMPLES at the top." caption="22." %}
 
 <br>
 
-I began the survey by testing three open large language models that produced the hallucinations I shared with you earlier. The findings highlighted a fundamental danger in incorporating LLM processes in the archives: untraceable errors. When an LLM is prompted to identify the words on a page, it is inherently prone to generating a solution based on context clues from legible material, one that may not actually reflect what's in the text. Moreover, these hallucinations may be nearly impossible to identify and correct, because they look and sound like the natural human language the LLM was trained on. With this in mind, I pivoted to exploring neural networks and transformer models, which, in all of my testing, have not demonstrated a vulnerability to hallucination and more accurately reflect what's on the page, including illegible characters, crossed-out passages, and misspellings.
+In summer 2025, I began by testing the three open large language models that produced the hallucinations which I shared with you earlier and will continue to pepper throughout the talk. The findings highlighted a fundamental danger in incorporating LLM processes in the archives: untraceable errors. When an LLM is prompted to identify the words on a page, it is inherently prone to generating a solution based on context clues from legible material, one that may not actually reflect what's in the text. Moreover, these hallucinations may be nearly impossible to identify and correct, because they look and sound, more or less, like the natural human language that the model was trained on. Note in this example on the left how the visual noise of the source material follows a nonsensical but consistent theme of "navigation", "navigation menu" and "navigation menu  has also been". 
+
+With this in mind, I pivoted to exploring neural networks and transformer models, which, in all of my testing, have not demonstrated a vulnerability to hallucination and more accurately reflect what's on the page, including illegible characters, crossed-out passages, and misspellings.
 
 {% include gallery-figure.html img="practice_23.png" alt="NEURAL NETWORK AND TRANSFORMER MODEL TESTING, below this, there are descriptions of various models' performance." caption="23." %}
 

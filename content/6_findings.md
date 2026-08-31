@@ -24,11 +24,11 @@ These statistics compare OCR accuracy between Adobe Acrobat's most up-to-date ve
 
 <br>
 
-In Spring 2026, I received approval to reprocess all of the PDF files in our digital collections with Opticolumn. To approach the remediation strategically, I developed another Python tool that scans all of the folders on our archive drive and tallies how many PDF files in each folder are missing an OCR layer. I used this as a guide to prioritize which collections to process first. Working with Digital Labs Manager Kevin Dobbins, we have now processed and replaced OCR for more than 14,000 documents across our digital collections and added OCR to more than 2,000 previously unsearchable documents. Based on combined report.py results, this has made an additional 7 million words accessible for keyword searching.
+In Spring 2026, I received approval to reprocess all of the PDF files in our digital collections with Opticolumn. To approach the remediation strategically, I developed another Python tool that scans all of the folders on our archive drive and tallies how many PDF files in each folder are missing an OCR layer. I used this as a guide to prioritize which collections to process first. Working with Digital Labs Manager Kevin Dobbins, we have now processed and replaced OCR for more than 14,000 documents across our digital collections and added OCR to more than 2,000 previously unsearchable documents. Based on combined post-processing reports, this has made an additional 7 million words accessible for keyword searching.
 
 <br>
 
-To evaluate the collections that have been processed, a randomized sample of documents from 32 digital collections was used to compare existing and newly generated OCR. The first 100 words of each document (3,200 words total) were evaluated for accuracy. Collections lacking an existing OCR layer were excluded from the sample. In this survey, Opticolumn achieved 85.25% accuracy, compared with 43.59% for the previous OCR.
+To evaluate the collections that have been processed, a randomized sample of documents from 32 digital collections was used to compare existing and newly generated OCR. The first 100 words of each document were evaluated for accuracy. Collections lacking an existing OCR layer were excluded from the sample. In this survey, Opticolumn achieved 85.25% accuracy, compared with 43.59% for the previous OCR.
 
 {% include gallery-figure.html img="practice_28.png" alt="A person stands in front of a row of old, bulky machines, each with a screen, as they work on a task. The woman appears to be handling or organizing documents." caption="28." %}
 
