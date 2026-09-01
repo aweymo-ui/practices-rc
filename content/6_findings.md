@@ -44,7 +44,7 @@ Now that all of the collections that contained documents missing OCR have been r
 
 <br>
 
-Working with Head of Special Collections Dulce Kersting-Lark to create accessible versions of some of the items you've seen in this presentation has also opened up another opportunity. To help make some of this difficult, antiquated cursive material more accessible, I'll be working on another function that creates an intermediate CSV of the OCR output, which can be spot-checked and edited for accuracy, then the files can be processed a second time to incorporate these revisions into the final embedded OCR layer.
+Working with Head of Special Collections Dulce Kersting-Lark to create accessible versions of very antiquated documents for an America 250 grant has presented another opportunity. To help make some of this ornate cursive material more accessible, I'll be working on another function that creates an intermediate CSV of the OCR output, which can be spot-checked and edited for accuracy, then the files can be processed a second time to incorporate these revisions into the final embedded OCR layer.
 
 <br>
 
