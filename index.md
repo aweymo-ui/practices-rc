@@ -14,6 +14,8 @@ gallery: true
 
 * [OSF Repository for Post-Processing OCR Accuracy Survey](https://osf.io/9f483/overview){:target="_blank" rel="noopener"}
 
+* [Presentation Recording](https://www.youtube.com/watch?v=8a54gpxjTPE)
+
 <br>
 
 ## Abstract
